@@ -1,0 +1,11 @@
+.box{
+    background-color: red;
+    height: 100px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1px;
+    row-gap: 1px;
+}
