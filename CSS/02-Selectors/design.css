@@ -1,0 +1,15 @@
+div{
+    background-color: cornflowerblue;
+}
+
+#header{
+    font-size: 2rem;
+}
+
+.subtitle{
+    color:rgb(41, 49, 39);
+}
+
+#text p{
+    background-color: coral;
+}
