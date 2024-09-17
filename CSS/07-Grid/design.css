@@ -1,11 +1,20 @@
 .box{
     background-color: red;
-    height: 100px;
+    padding: 10px;
 }
 
 .container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: minmax(100px, auto);
     column-gap: 1px;
     row-gap: 1px;
+}
+
+.item1 {
+    grid-row: span 3;
+}
+
+.item2 {
+    grid-column: span 2;
 }
