@@ -7,17 +7,21 @@ div {
     background-color: green;
     height: 200px;
     width: 200px;
+    font-size: 1.5rem;
 }
 
 .container1 {
     width: 50%;
+    font-size: 0.8rem;      /* root; bezieht sich immer auf die Basisschrift*/
 }
 
 .container2 {
     width: 50vw;
     height: 50vh;
+    font-size: 0.3rem;
 }
 
 *{
     margin: 0px;
+    font-size: 20px;
 }
