@@ -1,0 +1,60 @@
+.flexbox {
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+}
+
+.flexbox#upper {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.flexbox#lower {
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.green {
+    background-color: rgb(40, 157, 40);
+    height: 90%;
+    width: 20%;
+    margin: 10px;
+    position: relative;
+}
+
+.center {
+    background-color: white;
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.blue {
+    background-color: rgb(60, 112, 215);
+    height: 100%;
+    width: 35%;
+    position: relative;
+}
+
+.black {
+    background-color: black;
+    height: 7vw;
+    width: 7vw;
+}
+
+.black#upperbox {
+    position: absolute;
+}
+
+.black#lowerbox {
+    position: absolute;
+    bottom: 0px;
+    left: -45px;
+}
