@@ -1,0 +1,53 @@
+.flexbox {
+    background-color: red;
+    height: 45vh;
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.lightblue {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    left: 0;
+}
+
+.darkblue {
+    background-color: blue;
+    height: 25%;
+    width: 25%;
+}
+
+.purple {
+    background-color: rgb(172, 85, 172);
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    bottom: -8%;
+    right: -8%;
+}
+
+.green {
+    background-color: rgb(58, 169, 58);
+    height: 75%;
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    margin: 10px;
+    position: relative;
+}
+
+.orange {
+    background-color: rgb(225, 121, 18);
+    position: absolute;
+    height: 35%;
+    width: 35%;
+    bottom: 0px;
+}
