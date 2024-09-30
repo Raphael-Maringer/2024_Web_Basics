@@ -1,0 +1,48 @@
+.flexbox {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.blue{
+    background-color: rgb(41, 138, 170);
+    height: 50vh;
+    width: 50vh;
+    position: relative;
+}
+
+.orange {
+    background-color: rgb(232, 108, 20);
+    height: 25vh;
+    width: 25vh;
+    position: absolute;
+    bottom: 0px;
+}
+
+.orange#original {
+    right: 0px;
+}
+
+.orange#mirrored {
+    left: 0px;
+}
+
+.green {
+    background-color: rgb(75, 174, 75);
+    position: fixed;
+    height: 35vh;
+    width: 35vh;
+    right: 0px;
+    bottom: 0px;
+}
+
+.black {
+    background-color: black;
+    height: 15vh;
+    width: 15vh;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
