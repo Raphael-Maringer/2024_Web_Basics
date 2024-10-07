@@ -1,10 +1,18 @@
 .container{
     height: 400px;
     width: 400px;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
+    display: flex;
+    justify-content: flex-start;
     background-color: rgb(162, 162, 162);
+    position: relative;
+}
+
+.containertop{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
 }
 
 .box {
@@ -13,25 +21,22 @@
 
 .box#green {
     background-color: green;
-    grid-row: span 3;
-    grid-column: span 2;
+    height: 300px;
+    width: 200px;
+
 }
 
 .box#blue {
     background-color: rgb(132, 181, 211);
-    grid-column: 3;
-    grid-row: 1;
-    grid-row: span 3;
-    grid-column: span 2;
+    height: 300px;
+    width: 200px;
 }
 
 .box#orange {
     background-color: rgb(226, 150, 9);
     height: 100px;
     width: 400px;
-    grid-row: 4;
-    grid-row: span 1;
-    grid-column: span 4;
+
 }
 
 .grey {
