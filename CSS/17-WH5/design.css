@@ -2,22 +2,17 @@
     height: 400px;
     width: 400px;
     display: flex;
-    justify-content: flex-start;
-    background-color: rgb(162, 162, 162);
+    flex-direction: column;
     position: relative;
 }
 
 .containertop{
     height: 300px;
-    width: 400px;
+    width: 100%;
     display: flex;
-    justify-content: left;
     align-items: flex-start;
 }
 
-.box {
-    padding: 10px;
-}
 
 .box#green {
     background-color: green;
@@ -35,14 +30,22 @@
 .box#orange {
     background-color: rgb(226, 150, 9);
     height: 100px;
-    width: 400px;
+    width: 100%;
+}
 
+#black {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
 }
 
 .grey {
     height: 250px;
     width: 250px;
-    background-color: grey;
+    background-color: rgb(197, 197, 197);
     position: absolute;
     bottom: 0px;
     left: 0px;
