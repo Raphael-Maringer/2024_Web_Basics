@@ -58,17 +58,19 @@
 }
 
 .content {
-    height: 755.517px;
     width: 100vw;
     background-color: rgb(255, 255, 255);
 }
 
 .content p {
-    margin-top: 515.517px;
     padding-left: 7vw;
     padding-right: 7vw;
     color: #7b7b7b;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.75rem;
     line-height: 1.25;
+}
+
+.content img {
+    width: 100vw;
 }
