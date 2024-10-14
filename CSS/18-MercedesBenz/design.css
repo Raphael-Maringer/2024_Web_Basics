@@ -40,6 +40,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 
 .FAQ img {
@@ -53,8 +54,19 @@
 
 .icons img {
     height: 24px;
-    width: 36px;
+    width: 24px;
     margin: 20px;
+}
+
+.background {
+    height: 100vh;
+    position: relative;
+}
+
+#background-image {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
 }
 
 .content {
@@ -73,4 +85,16 @@
 
 .content img {
     width: 100vw;
+}
+
+.gradient {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: 
+    linear-gradient(90deg, rgba(255, 255, 255, 0.73) 4%, rgba(186, 186, 186, 0.20) 20%), 
+    linear-gradient(180deg, rgba(255, 255, 255, 0.73) 4%, rgba(186, 186, 186, 0.20) 20%); 
 }
