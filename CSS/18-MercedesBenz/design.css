@@ -5,12 +5,12 @@
 .navigation{
     background-color: black;
     height: 84px;
-    width: 100vw;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*padding-left: 130px;
-    padding-right: 130px;*/
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .menu{
@@ -34,10 +34,10 @@
     height: 64px;
     width: 64px;
     background-color: #1a1a1a;
-    border-radius: 10px;
+    border-radius: 13px;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 3.25vh;
+    right: 3.25vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,6 +51,8 @@
 
 .icons {
     display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .icons img {
@@ -62,6 +64,7 @@
 .icons p {
     font-family: 'Open Sans', sans-serif;
     color: #616161;
+    margin-right: 40px;
 }
 
 .background {
@@ -73,24 +76,6 @@
     height: 100vh;
     width: 100vw;
     object-fit: cover;
-}
-
-.content {
-    width: 100vw;
-    background-color: rgb(255, 255, 255);
-}
-
-.content p {
-    padding-left: 7vw;
-    padding-right: 7vw;
-    color: #7b7b7b;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.75rem;
-    line-height: 1.25;
-}
-
-.content img {
-    width: 100vw;
 }
 
 .gradient {
@@ -146,7 +131,108 @@
     color: white;
 }
 
+.content {
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.content p {
+    padding-left: 7vw;
+    padding-right: 7vw;
+    color: #7b7b7b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.25;
+    margin-bottom: 50px;
+}
+
+.content img {
+    width: 100vw;
+}
+
 .brand {
-    height: 158.8px;
-    width: 55.6px;
+    height: 55.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandmenu {
+    position: sticky;
+    top: 20; 
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.brand img {
+    height: 55.6px;
+    width: 158.8px;
+    border: 1px solid #7b7b7b;
+}
+
+.content h2 {
+    padding-left: 7vw;
+    padding-right: 7vw;
+    font-family: 'Playfair Display', serif;    
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -0.22rem;
+    font-stretch: ultra-condensed;
+    margin-top: 15px;
+}
+
+.grid {
+    
+    margin-top: 35px;
+    height: 624px;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-template-rows: 624px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+#gridbox1 {
+    grid-column: span 2;
+    background-image: url('Images/grid1.avif');
+    background-size: cover;
+    height: 624px;
+}
+
+#gridbox2 {
+    grid-column: span 1;
+    background-image: url('Images/grid2.avif');
+    background-size: cover;
+    height: 624px;
+}
+
+#gridbox3 {
+    grid-column: span 1;
+    background-image: url('Images/grid3.avif');
+    background-size: cover;
+    height: 624px;
+}
+
+#gridbox4 {
+    grid-column: span 1;
+    background-image: url('Images/grid4.avif');
+    background-size: cover;
+    height: 624px;
+}
+
+#gridbox5 {
+    grid-column: span 1;
+    background-image: url('Images/grid5.avif');
+    background-size: cover;
+    height: 624px;
+}
+
+.gridbox img {
+    width: 100%;
 }
