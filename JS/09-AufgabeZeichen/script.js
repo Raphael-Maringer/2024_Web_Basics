@@ -33,19 +33,21 @@ console.log("--------------------------------");
 // 3. Versuche mit einer for/while Schleife den Anfangsbuchstaben deines Namens auszugeben
 
 for (let index = 0; index < 5; index++) {
-    if (index == 0) {
-        console.log("XXXX")
-    }
-    if (index == 1) {
-        console.log("X  X")
-    }
-    if (index == 2) {
-        console.log("XXXX")
-    }
-    if (index == 3) {
-        console.log("X X")
-    }
-    if (index == 4) {
-        console.log("X  X")
+    switch (index) {
+        case 0:
+            console.log("XXXX")
+            break;
+        case 1: 
+            console.log("X  X")
+            break;
+        case 2:
+            console.log("XXXX")
+            break;
+        case 3:
+            console.log("X X")
+            break;
+        case 4:
+            console.log("X  X")
+            break;
     }
 }
