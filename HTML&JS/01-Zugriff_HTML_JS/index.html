@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zugriff HTML JS</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="design.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1 id="header">Hallo</h1>
-    <div id="content">Test</div>
+    <h1 id="header">Calculator</h1>
+
+    <div id="input">
+        <input type="text" id="number1" placeholder="Please enter your number">
+        <input type="text" id="number2" placeholder="Please enter your number">
+    </div>
+    
+    <div class="buttons">
+        <button onclick="calculateSum()">Calculate sum</button>
+        <button onclick="calculateDiff()">Calculate difference</button>
+        <button onclick="calculatePrd()">Calculate product</button>
+        <button onclick="calculateQuot()">Calculate quotient</button>
+    </div>
+
 </body>
 </html>
