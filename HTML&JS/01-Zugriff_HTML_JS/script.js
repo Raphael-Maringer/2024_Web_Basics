@@ -37,6 +37,3 @@ function calculateQuot() {
 
     console.log(result);
 }
-
-
-
