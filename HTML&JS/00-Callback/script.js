@@ -8,7 +8,6 @@ function getUserData(callback) {
             name: "Max Mustermann",
             email: "max@example.com"
         };
-
         callback(user);
     }, 2000);
 }
