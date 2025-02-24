@@ -10,12 +10,12 @@ function loadData() {
     .then((json) => {
       let html = [];
 
-      json.forEach((todo) => {
+      json.forEach((animal) => {
         html.push(
           "<div><div>" +
-            todo.title +
-            "</div><img width='50px' src='" +
-            todo.responsible +
+            animal.name +
+            "</div><img width='150px' src='" +
+            animal.avatar +
             "?id=" +
             Math.random() +
             " '/></div>"
