@@ -29,7 +29,7 @@ function getNextMatchForTeam(teamId) {
     let html = "<div id='nextMatch'>";
     html += `<div>${json.matchDateTime}</div>`;
 
-    html += `<div><img width="50px" src="${json.team1.teamIconUrl}"/>${json.team1.teamName} vs. ${json.team2.teamName}</div>`;
+    html += `<div><img width="50px" src="${json.team1.teamIconUrl}"/>${json.team1.teamName} vs. ${json.team2.teamName}<img width="50px" src="${json.team2.teamIconUrl}"/></div>`;
     html += "</div>";
     document.getElementById("nextMatch").innerHTML = html;
   })
