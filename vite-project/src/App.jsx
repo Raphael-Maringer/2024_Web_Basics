@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Card from './components/Card'
 import List from './components/List'
-import List from './components/Button'
+import Button from './components/Button'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +13,8 @@ function App() {
       <Card name={"Lenz"} jobtitle={"AV"} description={"lässig"}/>
       <Card name={"Sams"} jobtitle={"AV"} description={"auch lässig"}/> </div> 
       <List drink1={"Coffee"} drink2={"Tea"} drink3={"Beer"} ></List>
-      <Button>  </Button>
+      <p>Der Button wurde {count} mal geklickt!</p>
+      <Button title={"Sendar"} onClick={() => setCount(count + 1)}>  </Button>
     </>
   )
 }
