@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Card from './components/Card'
 import List from './components/List'
 import Button from './components/Button'
+import Person from './components/Person'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <List drink1={"Coffee"} drink2={"Tea"} drink3={"Beer"} ></List>
       <p>Der Button wurde {count} mal geklickt!</p>
       <Button title={"Sendar"} onClick={() => setCount(count + 1)}>  </Button>
+      <Person name={"Simon Metzler"} jobtitle={"Architect & Engineer"}></Person>
     </>
   )
 }
