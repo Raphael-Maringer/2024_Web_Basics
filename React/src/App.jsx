@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Exercise1 from './components/pages/Komponenten'
+import Exercise1 from './components/pages/Exercise1'
 
 function App() {
   const [count, setCount] = useState(0)
