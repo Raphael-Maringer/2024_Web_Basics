@@ -18,9 +18,20 @@ export default function Peoplecontainer() {
     alert("change");
   }, [color]);
 
+  const filterPeople = (filter) => {
+    let filtered = people.filter(person => person.name.includes(filter));
+    setPeople(filtered)
+  }
+
   return (
     <div>
         <h1>People</h1>
+        <div className='border'>
+          <input className='border p-3' type="text" placeholder="Search" onChange={(el) =>{
+            console.log(el.target.value)
+            filterPeople(el.target.value)
+          }}/>
+        </div>
         <button onClick={() => setColor("orange")}>Change Color</button>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-4'>
           {people.map(person => {
