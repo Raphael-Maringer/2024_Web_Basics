@@ -8,7 +8,7 @@ import Person from '../Person'
 export default function Exercise1() {
   const [count, setCount] = useState(0);
   return (
-    <div className="m-10 border-2 shadow-2xl bg-white">
+    <div className="m-10 border-2 shadow-2xl bg-white w-screen">
       <h1 className="bg-amber-300 p-4 text-center">Hello</h1>
       <div className="flex">
         <Card name={"Lenz"} jobtitle={"AV"} description={"lässig"} />
