@@ -2,7 +2,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router";
-
+import './App.css'
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Exercise1 from "./components/pages/Exercise1"
