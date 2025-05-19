@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import Exercise1 from './components/pages/Exercise1'
-import Exercise3 from './components/pages/Exercise3'
+import Exercise2 from './components/pages/Exercise2'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Exercise3> </Exercise3>
+      <Exercise2> </Exercise2>
     </>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import Peoplecontainer from '../Peoplecontainer'
 
-export default function Exercise3() {
+export function Exercise2() {
   return (
     <Peoplecontainer></Peoplecontainer>
   )

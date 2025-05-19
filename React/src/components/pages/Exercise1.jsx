@@ -19,7 +19,7 @@ export default function Exercise1() {
       <p>Der Button wurde {count} mal geklickt!</p>
       <Button title={"Sendar"} onClick={() => setCount(count + 1)}>  </Button>
       <Person name={"Simon Metzler"} jobtitle={"Architect & Engineer"}></Person>
-      <Link to="/e3" className='hover:cursor-pointer bg-green-400 rounded-2xl hover:bg-green-900 p-4'>Exercise 3</Link>
+      <Link to="/e2" className='hover:cursor-pointer bg-green-400 rounded-2xl hover:bg-green-900 p-4'>Exercise 2</Link>
     </div>
   )
 }

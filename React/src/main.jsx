@@ -6,7 +6,7 @@ import './App.css'
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Exercise1 from "./components/pages/Exercise1"
-import Exercise3 from "./components/pages/Exercise3"
+import Exercise2 from "./components/pages/Exercise2"
 import MainPage from "./components/pages/MainPage"
 
 const router = createBrowserRouter([
@@ -19,8 +19,8 @@ const router = createBrowserRouter([
     element: <Exercise1 />,
   },
   {
-    path: "/e3",
-    element: <Exercise3 />,
+    path: "/e2",
+    element: <Exercise2 />,
   },
 ]);
 
