@@ -2,7 +2,10 @@ import React, { useEffect, useState } from 'react'
 import Card from './Card'
 import Personcard from './Personcard'
 
-export default function Peoplecontainer() {
+type Props = {}
+
+
+export const Peoplecontainer = (props: Props) => {
   const [people, setPeople] = useState([]);
   const [filteredPeople, setFilteredPeople] = useState([]);
   const [color, setColor] = useState("green");

@@ -1,6 +1,8 @@
 import React from 'react'
 
-export default function Personcard({name, title, imageUri}) {
+type Props = {}
+
+export const Personcard = ({name, title, imageUri}) => {
   return (
     <div className='border grid grid-cols-2 h-40'>
         <div className='p-4'>

@@ -1,7 +1,10 @@
 import React from 'react'
 import Peoplecontainer from '../Peoplecontainer'
 
-export function Exercise2() {
+type Props = {}
+
+
+export const Exercise2 = (props: Props) => {
   return (
     <Peoplecontainer></Peoplecontainer>
   )

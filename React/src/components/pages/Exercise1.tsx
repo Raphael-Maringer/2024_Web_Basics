@@ -6,7 +6,8 @@ import Button from '../Button'
 import Person from '../Person'
 import {Link} from "react-router"
 
-export default function Exercise1() {
+type Props = {}
+export const Exercise1 = (props: Props) => {
   const [count, setCount] = useState(0);
   return (
     <div className="m-10 border-2 shadow-2xl bg-white w-screen">
@@ -17,7 +18,7 @@ export default function Exercise1() {
       </div>
       <List drink1={"Coffee"} drink2={"Tea"} drink3={"Beer"} ></List>
       <p>Der Button wurde {count} mal geklickt!</p>
-      <Button title={"Sendar"} onClick={() => setCount(count + 1)}>  </Button>
+      <Button title={"Sendar"} onClick={() => setCount(count + 1)}></Button>
       <Person name={"Simon Metzler"} jobtitle={"Architect & Engineer"}></Person>
       <Link to="/e2" className='hover:cursor-pointer bg-green-400 rounded-2xl hover:bg-green-900 p-4'>Exercise 2</Link>
     </div>

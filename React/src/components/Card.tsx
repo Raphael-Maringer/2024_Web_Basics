@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react'
 
-export default function Card({name, jobtitle, description}) {
+type Props = {}
+
+
+export const Card = ({props: name, jobtitle, description}) => {
     const [amountOfClicks, setAmountOfClicks] = useState(0);
     let style = amountOfClicks > 5 ? "bg-green-400" : "";
   return (

@@ -1,6 +1,9 @@
 import React from 'react'
 
-export default function List({drink1, drink2, drink3}) {
+type Props = {}
+
+
+export const List = ({drink1, drink2, drink3}) => {
   return (
     <div className="bg-cyan-800 w-[200px] h-[80px] m-[30px] p-[5px]">
         <p className="border-b-2 border-white">{drink1}</p>
