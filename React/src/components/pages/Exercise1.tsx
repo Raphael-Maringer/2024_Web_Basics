@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
-import Card from '../Card'
-import List from '../List'
-import Button from '../Button'
-import Person from '../Person'
+import {Card} from '../Card'
+import {List} from '../List'
+import {Button} from '../Button'
+import {Person} from '../Person'
 import {Link} from "react-router"
 
 type Props = {}

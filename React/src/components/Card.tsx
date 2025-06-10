@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from 'react'
 
-type Props = {}
+type Props = {
+  name: String,
+  jobtitle: String,
+  description: String
+}
 
 
-export const Card = ({props: name, jobtitle, description}) => {
+export const Card = ({name, jobtitle, description}: Props) => {
     const [amountOfClicks, setAmountOfClicks] = useState(0);
     let style = amountOfClicks > 5 ? "bg-green-400" : "";
   return (

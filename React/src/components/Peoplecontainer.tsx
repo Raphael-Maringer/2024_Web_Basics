@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import Card from './Card'
-import Personcard from './Personcard'
+import {Card} from './Card'
+import {Personcard} from './Personcard'
 
-type Props = {}
+type Props = {
+  name: String,
+  jobtitle: String,
+  description: String
+}
 
-
-export const Peoplecontainer = (props: Props) => {
+export const Peoplecontainer = ({name, jobtitle, description}: Props) => {
   const [people, setPeople] = useState([]);
   const [filteredPeople, setFilteredPeople] = useState([]);
   const [color, setColor] = useState("green");
